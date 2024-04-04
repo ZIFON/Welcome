@@ -23,7 +23,7 @@ public class Main : BasePlugin, IPluginConfig<ConnectInfoConfig>
 {
     public override string ModuleName => "Welcome";
     public override string ModuleAuthor => "Xenomoros";
-    public override string ModuleVersion => "1.0";
+    public override string ModuleVersion => "1.0.0";
 
     public ConnectInfoConfig Config { get; set; }
 
