@@ -197,4 +197,5 @@ Config/Welcome/Welcome.json
 
 # F.A.Q
 Q: If the plugin doesn't work?
+
 A: Check the operating system, and update the cssharp kernel in the plugin(counterstrikesharp.dll)
