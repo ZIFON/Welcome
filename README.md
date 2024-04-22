@@ -1,5 +1,6 @@
 # Welcome
 - I will recompile the plugin to a new version in the near future, I apologize for the errors
+
 CS2 Plugin C#
 
 - Requires CounterStrikeSharp version 142
