@@ -194,3 +194,7 @@ Config/Welcome/Welcome.json
 - ~~Сделать больше переменных по типу: {MAXPLAYERS}/ {PLAYERNAME}~~(Готово)
 - Добавить плагин в дискорд
 - Микро-исправления
+
+# F.A.Q
+Q: If the plugin doesn't work?
+A: Check the operating system, and update the cssharp kernel in the plugin(counterstrikesharp.dll)
