@@ -1,6 +1,4 @@
 # Welcome
-- EN | I will recompile the plugin to a new version in the near future, I apologize for the errors
-- RU | В ближайшее время я перекомпилирую плагин на новую версию, приношу извинения за ошибки
 
 CS2 Plugin C#
 
