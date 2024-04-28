@@ -30,18 +30,18 @@ Config/Welcome/Welcome.json
 Build:
 - Dump the file to the plugins folder in cssharp
 
-Collect your own:
-Installing the [Dotnet SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- Collect your own:
+- Installing the [Dotnet SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-Go to the project folder in cssharp/source in VS Code:
-[Image](https://i.imgur.com/muGkbFV.png)
+- Go to the project folder in cssharp/source in VS Code:
+- [Image](https://i.imgur.com/muGkbFV.png)
 
-Next, we write in the terminal "dotnet build"
-And see if there are any errors:
-[Image](https://i.imgur.com/kdek6gQ.png)
+- Next, we write in the terminal "dotnet build"
+- And see if there are any errors:
+- [Image](https://i.imgur.com/kdek6gQ.png)
 
-Next, we upload files from source/welcome/bin/net.8.0:
-[Image](https://i.imgur.com/hBVccQc.png)
+- Next, we upload files from source/welcome/bin/net.8.0:
+- [Image](https://i.imgur.com/hBVccQc.png)
 
 # Variables:
 
