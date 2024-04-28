@@ -30,7 +30,7 @@ Config/Welcome/Welcome.json
 Build:
 - Dump the file to the plugins folder in cssharp
 
-- Collect your own:
+Collect your own:
 - Installing the [Dotnet SDK 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 - Go to the project folder in cssharp/source in VS Code:
