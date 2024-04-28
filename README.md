@@ -43,7 +43,7 @@ And see if there are any errors:
 Next, we upload files from source/welcome/bin/net.8.0:
 [Image](https://i.imgur.com/hBVccQc.png)
 
-#Variables:
+# Variables:
 
 "WelcomePlayerOneEnable":
 - {MAXPLAYERS} - View max players
@@ -137,7 +137,7 @@ Config/Welcome/Welcome.json
 }
 ```
 
-#Переменные:
+# Переменные:
 
 "WelcomePlayerOneEnable":
 - {MAXPLAYERS} - View max players
