@@ -12,3 +12,18 @@ D:\cs2server\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\c
 D:\cs2server\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\counterstrikesharp\source\Welcome\obj\Debug\net8.0\refint\Welcome.dll
 D:\cs2server\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\counterstrikesharp\source\Welcome\obj\Debug\net8.0\Welcome.pdb
 D:\cs2server\steamapps\common\Counter-Strike Global Offensive\game\csgo\addons\counterstrikesharp\source\Welcome\obj\Debug\net8.0\ref\Welcome.dll
+F:\git\Welcome\obj\Debug\net8.0\Welcome.csproj.AssemblyReference.cache
+F:\git\Welcome\obj\Debug\net8.0\Welcome.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\Welcome\obj\Debug\net8.0\Welcome.AssemblyInfoInputs.cache
+F:\git\Welcome\obj\Debug\net8.0\Welcome.AssemblyInfo.cs
+F:\git\Welcome\obj\Debug\net8.0\Welcome.csproj.CoreCompileInputs.cache
+F:\git\Welcome\obj\Debug\net8.0\Welcome.sourcelink.json
+F:\git\Welcome\obj\Debug\net8.0\Welcome.dll
+F:\git\Welcome\obj\Debug\net8.0\refint\Welcome.dll
+F:\git\Welcome\obj\Debug\net8.0\Welcome.pdb
+F:\git\Welcome\bin\Debug\net8.0\Welcome.deps.json
+F:\git\Welcome\bin\Debug\net8.0\Welcome.dll
+F:\git\Welcome\bin\Debug\net8.0\Welcome.pdb
+F:\git\Welcome\bin\Debug\net8.0\CounterStrikeSharp.API.dll
+F:\git\Welcome\obj\Debug\net8.0\Welcome.csproj.Up2Date
+F:\git\Welcome\obj\Debug\net8.0\ref\Welcome.dll

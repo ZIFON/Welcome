@@ -5,6 +5,8 @@ using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Core.Attributes.Registration;
 using CounterStrikeSharp.API.Modules.Utils;
 using CounterStrikeSharp.API.Modules.Cvars;
+using CounterStrikeSharp.API.Core.Translations;
+
 
 namespace Main;
 public class ConnectInfoConfig : BasePluginConfig
@@ -24,6 +26,7 @@ public class Main : BasePlugin, IPluginConfig<ConnectInfoConfig>
     public override string ModuleName => "Welcome";
     public override string ModuleAuthor => "Xenomoros";
     public override string ModuleVersion => "1.0.0";
+    public ENetworkDisconnectionReason Reason { get; set; }
 
     public ConnectInfoConfig Config { get; set; }
 
@@ -90,9 +93,11 @@ public class Main : BasePlugin, IPluginConfig<ConnectInfoConfig>
     [GameEventHandler]
     public HookResult OnPlayerDisconnect(EventPlayerDisconnect @event, GameEventInfo info) {
         string playerName = @event.Name;
+        var reasonInt = @event.Reason;
         if(Config.DisconnectPlayerAllEnable == "true" || Config.DisconnectPlayerAllEnable == "1") {
             if(@event.Reason.ToString() != "39") {
-                Server.PrintToChatAll(ReplaceMessageTags(Config.disconnectAllText, playerName, @event.Reason.ToString(), String.Empty, String.Empty));
+                string disconnectReasonString = Localizer[((ENetworkDisconnectionReason)reasonInt).ToString()];
+                Server.PrintToChatAll(ReplaceMessageTags(Config.disconnectAllText, playerName, disconnectReasonString, String.Empty, String.Empty));
             }
         }
         else {}
